@@ -12,7 +12,6 @@ workflows:
       - test39
   upload-to-codecov:
     jobs:
-      - checkout
       - codecov/upload
 
 commands:
