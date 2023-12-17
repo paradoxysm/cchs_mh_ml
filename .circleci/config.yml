@@ -2,7 +2,7 @@ version: 2.1
 
 orbs:
   python: circleci/python@1.4.0
-  codecov: codecov/codecov@3.2.4
+  codecov: codecov/codecov@3.3.0
 
 workflows:
   buildtest:
@@ -12,7 +12,8 @@ workflows:
       - test39
   upload-to-codecov:
     jobs:
-      - upload-codecov
+      - checkout
+      - codecov/upload
 
 commands:
   test:
@@ -31,10 +32,6 @@ commands:
           command: pytest
 
 jobs:
-  upload-codecov:
-    steps:
-      - checkout
-      - codecov/upload
   test37:
     docker:
       - image: cimg/python:3.7
