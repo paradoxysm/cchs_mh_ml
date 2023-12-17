@@ -10,6 +10,7 @@ workflows:
       - test37
       - test38
       - test39
+      - upload-codecov
 
 commands:
   test:
@@ -25,15 +26,15 @@ commands:
             pip install pytest
             pip install coverage
             pip install pytest-cov
-            pip install codecov
       - run:
           name: Run tests
           command: pytest
-      - run:
-          name: Codecov
-          command: codecov/upload
 
 jobs:
+  upload-codecov:
+    steps:
+      - checkout
+      - codecov/upload
   test37:
     docker:
       - image: cimg/python:3.7
