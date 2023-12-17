@@ -1,10 +1,10 @@
 ## Documentation
 
-All documentation for `pypkg` is located here!
+All documentation for `cchs_mh_ml` is located here!
 
-[**pydoc**](https://github.com/paradoxysm/pypkg/tree/master/doc/pydoc) : Documentation regarding python classes and functions.
+[**pydoc**](https://github.com/paradoxysm/cchs_mh_ml/tree/master/doc/pydoc) : Documentation regarding python classes and functions.
 
-[**guides**](https://github.com/paradoxysm/pypkg/tree/master/doc/guides) : Guides on using `pypkg`.
+[**guides**](https://github.com/paradoxysm/cchs_mh_ml/tree/master/doc/guides) : Guides on using `cchs_mh_ml`.
 
 ## Overview
 

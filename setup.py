@@ -9,12 +9,12 @@ def read(*paths):
         return f.read()
 
 setup(
-	name='pypkg',
-	version='1.0.0',
-	description='Python Package Template Repository',
+	name='cchs_mh_ml',
+	version='0.1',
+	description='PMachine Learning Models using CCHS-Mental Health 2012 Survey Data',
 	long_description=(read('README.md') + '\n\n'),
 	long_description_content_type="text/markdown",
-	url='http://github.com/paradoxysm/pypkg',
+	url='http://github.com/paradoxysm/cchs_mh_ml',
 	author='paradoxysm',
 	author_email='paradoxysm.dev@gmail.com',
 	license='BSD-3-Clause',
@@ -30,10 +30,7 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
-	'Programming Language :: Python :: 3.6',
-	'Programming Language :: Python :: 3.7',
-	'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.7',
     ],
 	keywords=['python'],
     zip_safe=True)
