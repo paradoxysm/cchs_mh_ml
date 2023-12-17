@@ -1,55 +1,40 @@
 ## Python Package Template Repository
 
-[![CircleCI](https://img.shields.io/circleci/build/github/paradoxysm/pypkg?style=flat-square)](https://circleci.com/gh/paradoxysm/pypkg/tree/master)
-[![Codecov](https://flat.badgen.net/codecov/c/github/paradoxysm/pypkg?label=coverage)](https://codecov.io/gh/paradoxysm/pypkg)
-[![GitHub](https://flat.badgen.net/github/license/paradoxysm/pypkg)](https://github.com/paradoxysm/pypkg/blob/master/LICENSE)
+[![CircleCI](https://img.shields.io/circleci/build/github/paradoxysm/cchs_mh_ml?style=flat-square)](https://circleci.com/gh/paradoxysm/cchs_mh_ml/tree/master)
+[![Codecov](https://flat.badgen.net/codecov/c/github/paradoxysm/cchs_mh_ml?label=coverage)](https://codecov.io/gh/paradoxysm/cchs_mh_ml)
+[![GitHub](https://flat.badgen.net/github/license/paradoxysm/cchs_mh_ml)](https://github.com/paradoxysm/cchs_mh_ml/blob/master/LICENSE)
 
-This repository serves as a template repository for any python package development destined for PyPi. As a GitHub Template Repository, it can easily be cloned into a new repository for your own use. The repository contains:
- - A skeleton for the README.md (which you're reading right now!)
- - A simple `setup.py` file
- - Testing with `pytest` ready to go
- - Automated testing and deployment through CircleCI
- - Code coverage through Codecov
- - Code maintainability and test coverage through CodeClimate
- - GitHub Issues/PR templates
-
-Do remember to change all references to `pypkg` to the name of your python package! These references are located in the following locations:
- - Here...
- - docs/README.md
- - setup.py
- - pytest.ini
- - pypkg/ (rename to the name of your package)
 
 ## Installation
 
-***Note:*** `pypkg` is not actually available on PyPi.org or installable via `pip`. Use the following section for your own purposes!
+***Note:*** `cchs_mh_ml` is not actually available on PyPi.org or installable via `pip`. Use the following section for your own purposes!
 
-Once you have a suitable python environment setup, `pypkg` can be easily installed using `pip`:
+Once you have a suitable python environment setup, `cchs_mh_ml` can be easily installed using `pip`:
 ```
-pip install pypkg
+pip install cchs_mh_ml
 ```
-> `pypkg` is tested and supported on Python 3.5 up to Python 3.8. Usage on other versions of Python is not guaranteed to work as intended.
+> `cchs_mh_ml` is tested and supported on Python 3.7. Usage on other versions of Python is not guaranteed to work as intended.
 
 ## Usage
 
-For full details on usage, see the [documentation](https://github.com/paradoxysm/pypkg/tree/master/doc).
+For full details on usage, see the [documentation](https://github.com/paradoxysm/cchs_mh_ml/tree/master/doc).
 
 ## Changelog
 
-See the [changelog](https://github.com/paradoxysm/pypkg/blob/master/CHANGES.md) for a history of notable changes to `pypkg`.
+See the [changelog](https://github.com/paradoxysm/cchs_mh_ml/blob/master/CHANGES.md) for a history of notable changes to `cchs_mh_ml`.
 
 ## Development
 
-[![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability-percentage/paradoxysm/pypkg?style=flat-square)](https://codeclimate.com/github/paradoxysm/pypkg/maintainability)
+[![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability-percentage/paradoxysm/cchs_mh_ml?style=flat-square)](https://codeclimate.com/github/paradoxysm/cchs_mh_ml/maintainability)
 
-`pypkg` is in heavy development. Don't look, it's embarrassing!
+`cchs_mh_ml` is in heavy development. Don't look, it's embarrassing!
 
 ## Help and Support
 
 ### Documentation
 
-Documentation for `pypkg` can be found [here](https://github.com/paradoxysm/pypkg/tree/master/doc).
+Documentation for `cchs_mh_ml` can be found [here](https://github.com/paradoxysm/cchs_mh_ml/tree/master/doc).
 
 ### Issues and Questions
 
-Issues and Questions should be posed to the issue tracker [here](https://github.com/paradoxysm/pypkg/issues).
+Issues and Questions should be posed to the issue tracker [here](https://github.com/paradoxysm/cchs_mh_ml/issues).
