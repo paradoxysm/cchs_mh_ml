@@ -25,12 +25,13 @@ commands:
             pip install pytest
             pip install coverage
             pip install pytest-cov
+            pip install codecov
       - run:
           name: Run tests
           command: pytest
       - run:
-          name: Uploade Codecov
-          command: codecov/upload
+          name: Codecov
+          command: codecov
 
 jobs:
   test37:
