@@ -12,7 +12,7 @@ workflows:
       - test39
   upload-to-codecov:
     jobs:
-      - codecov/upload
+      - upload-codecov
 
 commands:
   test:
@@ -31,6 +31,10 @@ commands:
           command: pytest
 
 jobs:
+  upload-codecov:
+    steps:
+      - checkout
+      - codecov/upload
   test37:
     docker:
       - image: cimg/python:3.7
