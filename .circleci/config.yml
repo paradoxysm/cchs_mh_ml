@@ -10,6 +10,10 @@ workflows:
       - test37
       - test38
       - test39
+  upload-to-codecov:
+    jobs:
+      - checkout
+      - codecov/upload
 
 commands:
   test:
